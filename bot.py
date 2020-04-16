@@ -5,7 +5,7 @@ from datetime import date
 import time
 import asyncio
 import json
-from .config1 import TOKEN, CATEGORYID, LOGCHANNELID, SETCOMMENTRANKS, HELPCHANNELID, PREFIX
+from .config import TOKEN, CATEGORYID, LOGCHANNELID, SETCOMMENTRANKS, HELPCHANNELID, PREFIX
 
 bot = commands.Bot(command_prefix=str(PREFIX))
 
